@@ -1,0 +1,80 @@
+.main.panel > div > .nav-tabs>.nav-item {
+    width: 250px !important;
+    margin: 0 100px;
+}
+
+.main .nav-item>button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: var(--dark-2);
+    font-weight: 500;
+}
+
+.main .nav-link {
+    border: 0 !important;
+}
+
+.main .nav-link.active {
+    border: 0 !important;
+    border-bottom: 2px var(--red-1) solid !important;
+    color: var(--red-1) !important;
+    background-color: #F8F9FA !important;
+}
+
+.main .tab-content {
+    overflow: hidden;
+}
+
+.main .tab-pane {
+    padding-right: 20px;
+    overflow-x: hidden;
+}
+
+
+.manage-account-tab .form-label, .manage-account-tab .form-select, .manage-account-tab input {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+}
+
+#organization-tab-pane .nav-link {
+    border: 1px #dee2e6 solid !important;
+}
+
+#organization-tab-pane .nav-link.active {
+    border: 1px var(--red-1) solid !important;
+    color: white !important;
+    background-color: var(--red-1) !important;
+}
+
+#organization-tab-pane .all-org-tab .nav-tabs {
+    border-top: 1px #dee2e6 solid;
+}
+
+#organization-tab-pane .all-org-tab ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+#organization-tab-pane .all-org-tab ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#organization-tab-pane .all-org-tab ::-webkit-scrollbar-thumb {
+    height: 2px;
+    background-color: #7A7A7A;
+    border-radius: 10px;
+    border: 1px none transparent;
+}
+
+#organization-tab-pane .all-org-tab .nav-link {
+    border: 0 !important;
+    border-bottom: 1px #dee2e6 solid !important;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    text-align: left !important;
+}
+
+#organization-tab-pane .nav-link.active .angle-right {
+    color: white;
+}

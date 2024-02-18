@@ -1,0 +1,308 @@
+.main.panel > .nav-tabs > .nav-item {
+    width: 250px;
+    margin: 0 100px;
+}
+
+.main .nav-item > button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: var(--dark-2);
+    font-weight: 500;
+}
+
+.main  .nav-link {
+    border: 0 !important;
+}
+
+.main  .nav-link.active {
+    border: 0 !important;
+    border-bottom: 2px var(--red-1) solid !important;
+    color: var(--red-1) !important;
+    background-color: #F8F9FA !important;
+}
+
+.main  .tab-content {
+    padding: 15px 15px 15px 35px;
+    overflow: hidden;
+    height: 630px !important;
+}
+
+.main .tab-pane {
+    padding-right: 20px;
+    overflow-x: hidden;
+}
+
+#approval-tab-pane {
+    padding: 12px;
+}
+
+.req-header .top-text {
+    font-size: 20px;
+    margin: 0;
+}
+
+.req-header select {
+    background-color: transparent;
+    border: 0;
+    padding: 6px;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.label-div {
+    width: 95%;
+    padding: 26px 0px 18px 0px;
+}
+
+.label-div label {
+    font-size: 14px;
+    color: #BCC1CD;
+}
+
+.label-div .time-txt {
+    width: 90px;
+}
+
+#approval-tab-pane .content-wrapper {
+    width: 95%;
+    overflow-y: auto;
+    padding-right: 3%;
+}
+
+.request-div {
+    min-height: 170px;
+    margin-bottom: 22px;
+}
+
+.request-div .time-div {
+    width: 90px;
+}
+
+.time-div .date {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.time-div .time {
+    font-size: 13px;
+    color: #BCC1CD;
+    font-weight: 400;
+}
+
+.request-div .main-req-content {
+    flex: 1;
+    border-bottom: 1px rgba(230, 230, 230, .6) solid;
+}
+
+.main-req-content .avatar-div {
+    width: 53px;
+}
+
+.avatar-div .avatar-wrapper {
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+}
+
+.avatar-wrapper img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.red-thingy {
+    width: 8px;
+    height: 8px;
+    background-color: var(--red-1);
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.main-req-content .info-div {
+    flex: 1;
+}
+
+.header-text-div {
+    padding-top: 9px;
+    height: 35px;
+}
+
+.info-div h6 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.org-details-div {
+    padding-top: 7px;
+    height: 85px;
+}
+
+.btn-div {
+    flex: 1;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+
+.btn-div .btn {
+    width: 90px;
+    height: 28px;
+    padding: 3px 2px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #3C4257;
+    border: 1px #DDDEE1 solid;
+    background-color: white;
+}
+
+.btn-div .approve-btn {
+    background-color: var(--red-1);
+    border: 0;
+    color: white;
+}
+
+.view-modal .modal-lg {
+    max-width: 450px !important;
+    border-radius: 3px !important;
+}
+
+.view-modal .modal-content {
+    border-radius: 3px !important;
+}
+
+.view-modal .modal-body {
+    padding: 0 !important;
+}
+
+.view-modal .modal-top-img {
+    height: 190px;
+    background-image: url("../../assets/img/admin/event-modal-bg.svg");
+    background-size: cover;
+    background-position: 0px -55px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+
+.content-wrapper-modal {
+    padding: 18px 36px;
+}
+
+.content-wrapper-modal h6 {
+    margin-bottom: 21px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.reason-select {
+    height: 31px;
+    padding: auto;
+    font-size: 14px !important;
+    border-radius: 2px !important;
+}
+
+.explain-div textarea {
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.explain-div label {
+    color: #ACB5BD;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 12px 0 0 0;
+}
+
+.modal .btn-div {
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.modal .back-btn, .modal .submit-btn {
+    width: 110px;
+    border-radius: 3px !important;
+    font-size: 14px;
+    height: 30px;
+}
+
+.modal .back-btn {
+    border: 1px #DEE2E6 solid !important;
+    background-color: white !important;
+    color: var(--red-1) !important;
+}
+
+.modal .submit-btn {
+    background-color: var(--red-1) !important;
+    border: 1px var(--red-1) solid !important;
+    color: white;
+    font-weight: 400;
+}
+
+.representative-details {
+    border-bottom: 1px #E5E5E5 dashed;
+    padding-bottom: 16px;
+}
+
+.info-wrapper {
+    margin-bottom: 8px;
+}
+
+.approve-modal .info-wrapper {
+    margin-bottom: 12px;
+}
+
+.header-text {
+    font-size: 15px !important;
+    text-align: left !important;
+    margin-bottom: 8px;
+}
+
+.label-text {
+    width: 140px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.info-text {
+    font-size: 14px;
+    width: 230px;
+    text-align: justify;
+}
+
+.organization-details {
+    padding-top: 16px;
+}
+
+.approve-modal .modal-top-img img {
+    border-radius: 50%;
+    border: 4px white solid;
+    outline: 4px var(--red-1) solid;
+    object-fit: cover;
+}
+
+.info-div .label {
+    font-weight: 600;
+}
+
+.status-div {
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 125px;
+}
+
+.status-div.rejected {
+    background-color: var(--red-1);
+}
+
+.status-div.approved {
+    background-color: #29B95F;
+}
+
+.status-div.review {
+    background-color: #FAB020;
+}
