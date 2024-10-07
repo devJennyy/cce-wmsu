@@ -18,7 +18,7 @@ The platform is designed with three distinct user types:
 
 --- 
 
-### Installation Instructions
+### 📌 Installation Instructions
 
 1. **Download the repository as a ZIP**  
    Click on the green **Code** button and select **Download ZIP**.
