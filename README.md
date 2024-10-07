@@ -6,6 +6,17 @@ A web application designed to offer training programs and reviews to both univer
 
 ---
 
+### 🛠️ Tech Stack
+
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **DataTable**
+- **MySQL**
+- **PHP**
+
+---
+
 ### 👥 User Roles and Features
 
 The platform is designed with three distinct user types:
@@ -37,6 +48,5 @@ The platform is designed with three distinct user types:
 
 ---
 
-<br>
+> Happy Coding! ☕
 
-<h2 align="center"><strong>Happy Coding! ☕</strong></h2>
